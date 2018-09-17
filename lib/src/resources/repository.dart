@@ -4,16 +4,9 @@ import 'news_db_provider.dart';
 import '../models/item_model.dart';
 
 class Repository {
-<<<<<<< HEAD
-  NewsDbProvider dbProvider = NewsDbProvider();
-  NewsApiProvider apiProvider = NewsApiProvider();
-  NewsCacheProvider cacheProvider = 
-
-=======
   List<Source> sources = <Source>[
     newsDbProvider,
     NewsApiProvider(),
->>>>>>> 28bc9e44984c12cd8578faa3ecbfc2ed68e093b1
 
   ];
 

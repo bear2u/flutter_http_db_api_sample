@@ -10,5 +10,4 @@ class NewsList extends StatelessWidget {
       body : Text('Show some news here!!'),
     );
   }
-
 }
