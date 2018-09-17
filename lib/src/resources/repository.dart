@@ -6,6 +6,8 @@ import '../models/item_model.dart';
 class Repository {
   NewsDbProvider dbProvider = NewsDbProvider();
   NewsApiProvider apiProvider = NewsApiProvider();
+  NewsCacheProvider cacheProvider = 
+
 
   Future<List<int>> fetchTopIds() {    
     return apiProvider.fetchTopIds();
